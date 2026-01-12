@@ -1,7 +1,4 @@
-function createSlug(slug){
-    const lowerCase = slug.toLowerCase();
-    return lowerCase
-}
+const createSlug = require("./snack2");
 
 
 test("La funzione createSlug restituisce una stringa in lowercase.", () => {
