@@ -1,7 +1,4 @@
-function createSlug(slug) {
-  const dashedSlug = slug.replace(/ /g, "-"); //regex globale che trova tutti gli spazi
-  return dashedSlug;
-}
+const createSlug = require("./snack4");
 
 test("La funzione createSlug sostituisce gli spazi con -.", () => {
   const slug = createSlug("questo è un test");
